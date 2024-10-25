@@ -1,0 +1,46 @@
+.sidebar {
+    width: 250px; /* Độ rộng sidebar */
+    background-color: #34495e; /* Màu nền tối hơn */
+    color: white; /* Màu chữ trắng */
+    padding: 20px; /* Padding xung quanh */
+    height: 100vh; /* Chiều cao full màn hình */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Đổ bóng nhẹ bên phải */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền */
+  }
+  
+  .sidebar h2 {
+    color: white; /* Màu chữ tiêu đề */
+    font-size: 1.5em; /* Kích thước chữ lớn hơn */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+    text-align: center; /* Căn giữa tiêu đề */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Bỏ dấu chấm đầu dòng */
+    padding: 0; /* Bỏ padding mặc định */
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0; /* Khoảng cách giữa các item */
+  }
+  
+  .sidebar ul li a {
+    color: white; /* Màu chữ cho link */
+    text-decoration: none; /* Bỏ gạch dưới cho link */
+    display: block; /* Làm cho link có diện tích clickable */
+    padding: 10px 15px; /* Padding cho link */
+    border-radius: 5px; /* Bo tròn góc */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền */
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #1abc9c; /* Màu nền khi hover */
+    color: white; /* Giữ màu chữ trắng khi hover */
+  }
+  
+  /* Thêm một lớp cho icon nếu bạn sử dụng icon */
+  .sidebar ul li a .icon {
+    margin-right: 10px; /* Khoảng cách giữa icon và chữ */
+    font-size: 1.2em; /* Kích thước icon */
+  }
+  
